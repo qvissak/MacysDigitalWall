@@ -1,0 +1,51 @@
+#swatchColors{
+    display: flex;
+    width: 75%;
+    float: left;
+}
+.swatchItem{
+    margin: 5%;
+    position: relative;
+}
+
+.swatchColorDetails{
+    border-radius: 50%;
+}
+
+.sale-item {
+    color: #c00000;
+}
+
+.sticky-header {
+  font-size:  1.25rem;
+  margin-top: 1%;
+  position: relative;
+  float: left;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  vertical-align: top;
+}
+
+.align-right-ovr {
+  float: right;
+}
+
+ul {
+  padding-left: 8%;
+}
+
+/*.product-description li {
+  text-align: left;
+}
+
+.product-reviews {
+  font-size: 14px;
+  text-align: right;
+  padding-bottom: 5%;
+}*/

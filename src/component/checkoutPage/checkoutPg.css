@@ -1,0 +1,40 @@
+.checkoutpg-container {
+  /*padding-top: 2%;*/
+  padding-left: 2%;
+  width: 100%;
+  /*border: 1px solid green;*/
+}
+
+.checkout-header {
+  font-size: 0.8rem;
+}
+
+.chk-top {
+  width: 100%;
+}
+
+.chk-bot-left {
+  width: 60%;
+  display: inline-block;
+}
+
+.chk-bot-right {
+  width: 40%;
+  display: inline-block;
+  float: right;
+}
+
+.chk-prices {
+  margin-top: 2%;
+  float: left;
+  display: inline;
+}
+
+.confirmation-container {
+  width: 100%;
+  /*border: 1px solid red;*/
+}
+
+.plssavemenow{
+  width: 100%;
+}

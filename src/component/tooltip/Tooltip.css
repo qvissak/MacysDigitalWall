@@ -1,0 +1,64 @@
+p {
+  margin: 0 0 0 0;
+}
+.top-left-corner {
+  position: absolute;
+  left: 0.75%;
+  top: 1%;
+}
+
+.top-right-corner {
+  position: absolute;
+  right: 0.75%;
+  top: 6%;
+}
+
+.top-right-corner-reviews {
+  position: absolute;
+  right: 0.75%;
+  top: 1%;
+}
+
+.bottom-left-corner {
+  position: absolute;
+  left: 1%;
+  bottom: 1%;
+}
+
+.bottom-right-corner {
+  position: absolute;
+  right: 2%;
+  bottom: 45%;
+}
+
+.side-panel {
+  position: absolute;
+  left: 10.5%;
+  bottom: 1%;
+}
+
+/* Create the animation blocks */
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+@keyframes pop {
+  from { transform: scale(1);}
+  to { transform: scale(1.2);}
+}
+
+@keyframes betterPop {
+  0% { transform: scale(1);}
+  50% {
+    transform: scale(1.1);
+  }
+  100% { transform: scale(1);}
+}
+
+#advanced {
+  animation-name: betterPop;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}

@@ -1,0 +1,15 @@
+.product-brand {
+  font-size: 1.30rem;
+  font-weight: bold;
+  text-align: left;
+}
+.product-name {
+  font-size: 1.125rem;
+  text-align: left;
+}
+.top-header{
+  width: 60%;
+  float: right;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}

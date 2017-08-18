@@ -1,0 +1,43 @@
+.details-container {
+  height: 75%;
+  width: 100%;
+  /*border: 1px solid red;*/
+}
+
+.product-description {
+  padding-top:  2%;
+  padding-left: 2%;
+  font-size: 0.70em;
+  text-align: left;
+  /*line-height: 1em;*/
+  overflow: auto;
+  height: 100%;
+  /*border: 1px solid blue;*/
+}
+
+.details-section-title {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.details-webid {
+  display: block;
+  margin-bottom: 2%;
+}
+
+
+.product-bullets {
+  padding-top: 2%;
+  /*max-height: 10em;*/
+  /*overflow: auto;*/
+  /*max-height: inherit;*/
+}
+
+ul {
+  padding-left: 8%;
+}
+
+.product-description li {
+  text-align: left;
+}

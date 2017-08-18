@@ -1,0 +1,116 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    cursor: inherit;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    color: #333;
+    /*background: lightblue;*/
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+    background: url('./assets/macysbg.png') no-repeat center center fixed;
+    background-color: rgba(0,0,0,0.2);
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-size: cover;
+
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#grid {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.row{
+  height: 43%;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+#row-top {
+  /*margin-top: 7%;*/
+  padding-bottom: 5%;
+  /*margin-bottom: 3vh;*/
+}
+
+#row-bot {
+  padding-top: 5vh;
+  /*margin-top: 3vh;*/
+}
+
+.box-left {
+  height: 100%;
+  position: relative;
+  /*border: 1px solid blue;*/
+}
+
+.box-right {
+  height: 100%;
+  /*border: 1px solid blue;*/
+  position: relative;
+}
+
+.box-dummy {
+  text-align: center;
+  /*border: 1px solid black;*/
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.collection-container{
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  /*border: 1px solid blue;*/
+  text-align: center;
+}
+
+.item-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.item-container.active {
+  visibility: visible;
+}
+
+.item-container.disabled {
+  visibility: hidden;
+}
+
+.item-mainpanel{
+  vertical-align:top;
+  float: left;
+  width: 100%;
+  background: transparent;
+}
+
+.dummyContainer {
+  height: 100%;
+  width: 100%;
+  background: red;
+  border: 1px solid green;
+  vertical-align: top;
+  position: absolute;
+}

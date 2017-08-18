@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+
+.taphere-container {
+  height: 10vh;
+  width: 50%;
+  z-index: 2;
+  top: 40%;
+  position: absolute;
+  cursor: pointer;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: white;
+  border: 3px solid white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  /*border: 1px solid red;*/
+}
+
+
+.taphere-container.active {
+  visibility: visible;
+}
+
+.taphere-container.disabled {
+  visibility: hidden;
+}
+
+
+.taphere-container:hover{
+  opacity: 0.6;
+}
+
+.taphere-container.right {
+  margin-right: 5%;
+  right: 0px;
+}
+
+.taphere-container.left {
+  margin-left: 5%;
+}
+
+.taphere-container-inner{
+  width: 100%;
+}
+
+.taphere-arrow {
+  height: 80%;
+  /*margin-left: -2%;*/
+  float: left;
+}
+
+.taphere-text {
+  height: 100%;
+  font-size: 300%;
+  color: white;
+  text-align: left;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid green;*/
+}
+
+.taphere-text.left {
+  margin-right: 5%;
+}
+
+.taphere-text.right {
+  margin-left: 5%;
+}
